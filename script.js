@@ -1,6 +1,7 @@
-const parentdiv=document.querySelector('.parentdiv')
+const parentdiv=document.querySelector('.faq')
 
-parentdiv.addEventListener('click' ,function(event){if (event.target.tagName==='P') 
-{const childdiv=document.querySelectorAll('childdiv')
-childdiv.classlist.toggle('hidden')
+parentdiv.addEventListener('click', function(e)
+{const childdiv= e.target.querySelector('.childdiv')
+if (e.target.tagName==='DIV') {
+    childdiv.classList.toggle('hidden')
 }})

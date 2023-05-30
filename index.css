@@ -58,6 +58,20 @@ body{
     align-items: center;
     width: 100%;
     justify-content: center;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.form {
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.button {
+    background-color: red;
+    color: white;
 }
 
 .faq-sec {
@@ -72,4 +86,16 @@ body{
 
 .hidden {
     display: none;
+}
+
+.enjoy {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
 }
