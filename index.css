@@ -82,6 +82,8 @@ body{
 
 .parentdiv {
     color: white;
+    background-color: grey;
+
 }   
 
 .hidden {
@@ -98,4 +100,9 @@ body{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px
+}
+
+.link{
+    color: white;
+    font-size: larger;
 }

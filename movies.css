@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    
+}
+
+.body{
+    width: 100vw;
+    padding: 10px;
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+
+.moviesec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: cadetblue;
+    margin: 10px;
+}
+
+.container{
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+.home{
+    color: black;
+    font-size: larger;
+}
